@@ -142,7 +142,6 @@ margin: 10px auto;
 
 /*------------------------Esto es a causa del recuadro azul que aparece al hacer focus en un boton------------------------*/
 input:focus, input.form-control:focus {
-
     outline:none !important;
     outline-width: 0 !important;
     box-shadow: none;
