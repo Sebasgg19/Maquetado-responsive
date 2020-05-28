@@ -1,9 +1,151 @@
-#home_header{
-    background-color: black;
-    height: 83px;
-    left: 0px;
-    top: 0px;
+/*------------------------GOOGLE FONTS IMPORTS------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
 }
-#home_logo{
-    
+/*------------------------Login header------------------------*/
+
+.main_login_header{
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.main_login_header, h1{
+    font-family: 'Righteous', cursive;
+    color: black;
+    margin-left: 15px;
+
+}
+
+.matea_login_logo{
+width: 37px;
+height: 33px;
+left: 495px;
+top: 25px;
+}
+
+/*------------------------Fin login header------------------------*/
+
+/*------------------------Login home------------------------*/
+
+.main_form_login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.main_inputs{
+width: 527px;
+height: 57px;
+left: 313px;
+top: 170px;
+text-align: center;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 33px;
+font-family: 'Montserrat', sans-serif;
+margin: 10px auto;
+}
+
+.form-check{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.remember_input{
+    width: 29.17px;
+    height: 29.17px;
+    left: 313px;
+    top: 319px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.btn{
+    width: 204px;
+    height: 38px;
+    left: 636px;
+    top: 319px;
+    background: #1ED760;
+    border-radius: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.remember{
+    text-align: center;
+}
+
+.remember input{
+    width: 204px;
+    height: 38px;
+    left: 474px;
+    top: 525px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.acc_green{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1ED760;
+}
+
+
+/*------------------------Estilo del texto placeholder de los botones------------------------*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: rgba(31, 32, 65, 0.25);
+    text-align: justify;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: rgba(31, 32, 65, 0.25);
+   opacity: 1 /* Opacity debido a que Mozilla la reduce por defecto*/;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: rgba(31, 32, 65, 0.25);
+   opacity:  1;
+}
+:-ms-input-placeholder { 
+   color: rgba(31, 32, 65, 0.25);
+}
+
+/*------------------------Esto es a causa del recuadro azul que aparece al hacer focus en un boton------------------------*/
+input:focus, input.form-control:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
 }
