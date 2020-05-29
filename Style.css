@@ -308,7 +308,39 @@ top: 25px;
 
 /*------------------------Fin Del Estilo Home Register------------------------*/
 
-.search__playlist__header {
+.search_playlist_header {
+    flex-direction: row;
+    display: flex;
+    height: 83px;
+    background-color: #000000;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.matea_searchplaylist_logo {
+    width: 37px;
+    height: 33px;
+    left: 495px;
+    top: 30px;
+
+} 
+.mateify_searchplaylist{
+color: #ffffff;
+font-family: 'Righteous', cursive;
+margin-left: 15px;
+
+}
+.mateify_usuario {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* .search__playlist__header {
 display: flex;
 background-color: #000000;
 width: 1152px;
@@ -332,6 +364,6 @@ font-style: normal;
 font-weight: normal;
 font-size: 32px;
 line-height: 40px
-}
+} */
 
 
