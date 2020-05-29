@@ -1,4 +1,4 @@
-/*------------------------GOOGLE FONTS IMPORTS------------------------*/
+/*------------------------GOOGLE FONTS IMPORTS--------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
 }
-/*------------------------Login header------------------------*/
+/*------------------------Login header----------------------------*/
 
 .main_login_header{
     height: 83px;
@@ -33,16 +33,23 @@ top: 25px;
 
 /*------------------------Fin login header------------------------*/
 
-/*------------------------Login home------------------------*/
+/*------------------------Login home------------------------------*/
 
+
+.p_login{
+text-align: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+}
 .main_form_login{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .main_inputs{
 width: 527px;
@@ -56,12 +63,14 @@ box-sizing: border-box;
 border-radius: 33px;
 font-family: 'Montserrat', sans-serif;
 margin: 10px auto;
+max-width: 90vw;
 }
 
 .form-check{
     display: flex; 
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .remember_input{
@@ -75,7 +84,16 @@ margin: 10px auto;
     border-radius: 4px;
 }
 
-.btn{
+.remember_label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.button_login{
     width: 204px;
     height: 38px;
     left: 636px;
@@ -120,6 +138,23 @@ margin: 10px auto;
     font-size: 18px;
     line-height: 22px;
     color: #1ED760;
+}
+.button_register{
+width: 204px;
+height: 38px;
+left: 474px;
+top: 525px;
+background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 42px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #000000;
 }
 
 
