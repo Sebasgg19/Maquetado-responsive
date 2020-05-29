@@ -66,13 +66,6 @@ margin: 10px auto;
 max-width: 90vw;
 }
 
-.form-check{
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 .remember_input{
     width: 29.17px;
     height: 29.17px;
@@ -224,6 +217,7 @@ top: 25px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px auto;
 }
 
 .main_inputs_register{
@@ -238,16 +232,29 @@ top: 25px;
     border-radius: 33px;
     font-family: 'Montserrat', sans-serif;
     margin: 10px auto;
-    max-width: 90vw;
+    
     }
+
+    .label_born{             
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;        
+        color: rgba(31, 32, 65, 0.25);
+        text-align: center;    
+        margin: 10px auto;
+
+}
     
     .nacimiento_register{
         display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 90vw;
     flex-wrap: wrap;
+    
     }
 
     .dia_register{
@@ -273,7 +280,6 @@ top: 25px;
     }
 
     .año_register{
-    position: absolute;
     width: 173px;
     height: 56.43px;
     left: 666px;
@@ -283,7 +289,47 @@ top: 25px;
     box-sizing: border-box;
     border-radius: 50px;
     }
+    
+    .radio_register_p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.25);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
 
+.btn-register{
+    width: 191px;
+height: 38px;
+left: 480px;
+top: 647px;
+    background: #1ED760;
+    border-radius: 42px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+color: #FFFFFF;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+}
+
+.hrfooter_register{
+    width: 527px;
+height: 0px;
+left: 313px;
+top: 738px;
+
+border: 1px solid rgba(101, 101, 101, 0.33);
+}
 
 
 
@@ -308,62 +354,8 @@ top: 25px;
 
 /*------------------------Fin Del Estilo Home Register------------------------*/
 
-.search_playlist_header {
-    flex-direction: row;
-    display: flex;
-    height: 83px;
-    background-color: #000000;
-    justify-content: flex-start;
-    align-items: flex-start;
 
-}
 
-.matea_searchplaylist_logo {
-    width: 37px;
-    height: 33px;
-    left: 495px;
-    top: 30px;
 
-} 
-.mateify_searchplaylist{
-color: #ffffff;
-font-family: 'Righteous', cursive;
-margin-left: 15px;
-
-}
-.mateify_usuario {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-
-/* .search__playlist__header {
-display: flex;
-background-color: #000000;
-width: 1152px;
-height: 83px;
-}
-
-.matea_searchplaylist_logo {
-    width: 37px;
-    height: 33px;
-    top: 25px;
-    left: 66px;
-} 
-.mateify__searchplaylist{
-    width: 183px;
-height: 64px;
-left: 114px;
-top: 19px;
-
-font-family: Righteous;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 40px
-} */
 
 
