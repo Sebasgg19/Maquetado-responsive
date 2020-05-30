@@ -66,6 +66,12 @@ margin: 10px auto;
 max-width: 90vw;
 }
 
+.form-check{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .remember_input{
     width: 29.17px;
     height: 29.17px;
@@ -176,6 +182,16 @@ input:focus, input.form-control:focus {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
 }
+/*------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------FINALIZA ESTILO DE PÁGINA LOGIN.HTML---------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
 /*------------------------Estilo del Header Register------------------------*/
 .main_register_header{
     height: 83px;
@@ -303,10 +319,6 @@ text-align: center;
 }
 
 .btn-register{
-    width: 191px;
-height: 38px;
-left: 480px;
-top: 647px;
     background: #1ED760;
     border-radius: 42px;
     font-family: Montserrat;
@@ -315,24 +327,50 @@ top: 647px;
     font-size: 18px;
     line-height: 22px;
     text-transform: uppercase;
-color: #FFFFFF;
-align-items: center;
-justify-content: center;
-text-align: center;
-flex-direction: column;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.hrfooter_register{
-    width: 527px;
-height: 0px;
-left: 313px;
-top: 738px;
-
-border: 1px solid rgba(101, 101, 101, 0.33);
+.register_btn{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.register_rfooter{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 
+    .navbar_register{
+        background-color: white;
+        border-top: 1px solid rgba(101, 101, 101, 0.33);;
+    }
+    .navbar_register p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    }
 
-
+    .Spotify_logo{
+        width: 111px;
+        height: 67px;
+        left: 986px;
+        top: 929px;
+      }
+    
+      .pwred_spoti{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: flex-end;
+      }
 
 
 
@@ -356,6 +394,50 @@ border: 1px solid rgba(101, 101, 101, 0.33);
 
 
 
+/* Search Playlist */
+.search_header{
+    display: flex;
+    height: 83px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+  }
+  
+  .search_header .mateify_text{
+    margin: 0 15px;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+  
+  .mateify_text:hover{
+      text-decoration: none;
+      color: #1ed760
+  }
 
+  .search_header img{
+    width: 37px;
+    height: 33px;
+    left: 66px;
+    top: 25px;
+  }
+  
+  .my_user{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .my_user:hover{
+    color: #1ed760;
+    text-decoration: none;
+  }
 
 
