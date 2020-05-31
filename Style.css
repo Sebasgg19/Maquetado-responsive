@@ -248,6 +248,7 @@ top: 25px;
     border-radius: 33px;
     font-family: 'Montserrat', sans-serif;
     margin: 10px auto;
+    max-width: 90vw;
     
     }
 
@@ -373,16 +374,7 @@ text-align: center;
       }
 
 
-
-
-
-
-
-
-
-
-
-
+   
 
 
 
@@ -441,3 +433,32 @@ text-align: center;
   }
 
 
+/* Estilo de Pag Home.html */
+
+.header_homepag{
+    height: 83px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+}
+.header_homepag h1{
+    width: 183px;
+    height: 64px;
+    left: 114px;
+    top: 19px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    
+    color: #FFFFFF;
+}
+.logo_homepag{
+    width: 37px;
+height: 33px;
+left: 66px;
+top: 25px;
+}
