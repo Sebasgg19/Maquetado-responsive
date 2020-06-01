@@ -1,464 +1,462 @@
 /*------------------------GOOGLE FONTS IMPORTS--------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 /*------------------------Login header----------------------------*/
 
-.main_login_header{
-    height: 83px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
+.main_login_header {
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
 
-.main_login_header, h1{
-    font-family: 'Righteous', cursive;
-    color: black;
-    margin-left: 15px;
-
+.main_login_header,
+h1 {
+  font-family: "Righteous", cursive;
+  color: black;
+  margin-left: 15px;
 }
 
-.matea_login_logo{
-width: 37px;
-height: 33px;
-left: 495px;
-top: 25px;
+.matea_login_logo {
+  width: 37px;
+  height: 33px;
+  left: 495px;
+  top: 25px;
 }
 
 /*------------------------Fin login header------------------------*/
 
 /*------------------------Login home------------------------------*/
 
-
-.p_login{
-text-align: center;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
+.p_login {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 }
-.main_form_login{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.main_inputs{
-width: 527px;
-height: 57px;
-left: 313px;
-top: 170px;
-text-align: center;
-background: #FFFFFF;
-border: 1px solid rgba(31, 32, 65, 0.25);
-box-sizing: border-box;
-border-radius: 33px;
-font-family: 'Montserrat', sans-serif;
-margin: 10px auto;
-max-width: 90vw;
+.main_form_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-check{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.main_inputs {
+  width: 527px;
+  height: 57px;
+  left: 313px;
+  top: 170px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px auto;
+  max-width: 90vw;
 }
 
-.remember_input{
-    width: 29.17px;
-    height: 29.17px;
-    left: 313px;
-    top: 319px;
-    background: #FFFFFF;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 4px;
+.form-check {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.remember_label{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    color: rgba(31, 32, 65, 0.5);
+.remember_input {
+  width: 29.17px;
+  height: 29.17px;
+  left: 313px;
+  top: 319px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
-.button_login{
-    width: 204px;
-    height: 38px;
-    left: 636px;
-    top: 319px;
-    background: #1ED760;
-    border-radius: 42px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: uppercase;
-    color: #ffffff;
+.remember_label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.5);
 }
 
-.remember{
-    text-align: center;
+.button_login {
+  width: 204px;
+  height: 38px;
+  left: 636px;
+  top: 319px;
+  background: #1ed760;
+  border-radius: 42px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.remember input{
-    width: 204px;
-    height: 38px;
-    left: 474px;
-    top: 525px;
-    background: #FFFFFF;
-    border: 2px solid #000000;
-    box-sizing: border-box;
-    border-radius: 42px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #000000;
+.remember {
+  text-align: center;
 }
 
-.acc_green{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    color: #1ED760;
-}
-.button_register{
-width: 204px;
-height: 38px;
-left: 474px;
-top: 525px;
-background: #FFFFFF;
-border: 2px solid #000000;
-box-sizing: border-box;
-border-radius: 42px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
-text-transform: uppercase;
-color: #000000;
+.remember input {
+  width: 204px;
+  height: 38px;
+  left: 474px;
+  top: 525px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 42px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
+.acc_green {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1ed760;
+}
+.button_register {
+  width: 204px;
+  height: 38px;
+  left: 474px;
+  top: 525px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 42px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;  
+  margin-bottom: 120px;
+}
 
 /*------------------------Estilo del texto placeholder de los botones------------------------*/
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: rgba(31, 32, 65, 0.25);
-    text-align: justify;
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: rgba(31, 32, 65, 0.25);
+  text-align: justify;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: rgba(31, 32, 65, 0.25);
-   opacity: 1 /* Opacity debido a que Mozilla la reduce por defecto*/;
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgba(31, 32, 65, 0.25);
+  opacity: 1 /* Opacity debido a que Mozilla la reduce por defecto*/;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: rgba(31, 32, 65, 0.25);
-   opacity:  1;
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgba(31, 32, 65, 0.25);
+  opacity: 1;
 }
-:-ms-input-placeholder { 
-   color: rgba(31, 32, 65, 0.25);
+:-ms-input-placeholder {
+  color: rgba(31, 32, 65, 0.25);
 }
 
 /*------------------------Esto es a causa del recuadro azul que aparece al hacer focus en un boton------------------------*/
-input:focus, input.form-control:focus {
-    outline:none !important;
-    outline-width: 0 !important;
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
+input:focus,
+input.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------FINALIZA ESTILO DE PÁGINA LOGIN.HTML---------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
-
-
-
-
-
 /*------------------------Estilo del Header Register------------------------*/
-.main_register_header{
-    height: 83px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
+.main_register_header {
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
 
-.main_register_header, h1{
-    font-family: 'Righteous', cursive;
-    color: black;
-    margin-left: 15px;
-
+.main_register_header,
+h1 {
+  font-family: "Righteous", cursive;
+  color: black;
+  margin-left: 15px;
 }
 
-.matea_register_logo{
-width: 37px;
-height: 33px;
-left: 495px;
-top: 25px;
+.matea_register_logo {
+  width: 37px;
+  height: 33px;
+  left: 495px;
+  top: 25px;
 }
 
 /*------------------------Fin Del Estilo del Header Register------------------------*/
 
 /*------------------------Estilo Home Register------------------------*/
-.p_register{
-    text-align: center;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    }
-.form_register
-
-.main_form_register{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px auto;
+.p_register {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+.form_register .main_form_register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
 }
 
-.main_inputs_register{
-    width: 527px;
-    height: 57px;
-    left: 313px;
-    top: 170px;
-    text-align: center;
-    background: #FFFFFF;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 33px;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px auto;
-    max-width: 90vw;
-    
-    }
-
-    .label_born{             
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 17px;
-        text-transform: uppercase;        
-        color: rgba(31, 32, 65, 0.25);
-        text-align: center;    
-        margin: 10px auto;
-
-}
-    
-    .nacimiento_register{
-        display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-    }
-
-    .dia_register{
-    width: 90px;
-    height: 56.43px;
-    left: 316px;
-    top: 490px;
-    background: #FFFFFF;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 50px;
-    }
-
-    .mes_register{
-    width: 211px;
-    height: 56.43px;
-    left: 431px;
-    top: 490.44px;
-    background: #FFFFFF;   
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 50px;
-    }
-
-    .año_register{
-    width: 173px;
-    height: 56.43px;
-    left: 666px;
-    top: 490.44px;    
-    background: #FFFFFF;    
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 50px;
-    }
-    
-    .radio_register_p{
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-color: rgba(31, 32, 65, 0.25);
-justify-content: center;
-align-items: center;
-text-align: center;
+.main_inputs_register {
+  width: 527px;
+  height: 57px;
+  left: 313px;
+  top: 170px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px auto;
+  max-width: 90vw;
 }
 
-.btn-register{
-    background: #1ED760;
-    border-radius: 42px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.label_born {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.25);
+  text-align: center;
+  margin: 10px auto;
 }
 
-.register_btn{
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nacimiento_register {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.register_rfooter{
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-    align-items: center;}
 
-    .navbar_register{
-        background-color: white;
-        border-top: 1px solid rgba(101, 101, 101, 0.33);;
-    }
-    .navbar_register p{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    }
+.dia_register {
+  width: 90px;
+  height: 56.43px;
+  left: 316px;
+  top: 490px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 50px;
+}
 
-    .Spotify_logo{
-        width: 111px;
-        height: 67px;
-        left: 986px;
-        top: 929px;
-      }
-    
-      .pwred_spoti{
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          align-items: center;
-          justify-content: flex-end;
-      }
+.mes_register {
+  width: 211px;
+  height: 56.43px;
+  left: 431px;
+  top: 490.44px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 50px;
+}
 
+.año_register {
+  width: 173px;
+  height: 56.43px;
+  left: 666px;
+  top: 490.44px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 50px;
+}
 
-   
+.radio_register_p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.25);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.btn-register {
+  background: #1ed760;
+  border-radius: 42px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
+.register_btn {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register_rfooter {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.footerform_container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 88px;
+  align-items: center;
+}
+.footerform_container p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0px 5px;
+}
 
+.Spotify_logo {
+  height: 40px;
+}
 
+.pwred_spoti {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
 
+.footerform_register {
+  border-top: 1px solid rgba(101, 101, 101, 0.33);
+}
 
 /*------------------------Fin Del Estilo Home Register------------------------*/
 
-
-
 /* Search Playlist */
-.search_header{
-    display: flex;
-    height: 83px;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #000000;
-  }
-  
-  .search_header .mateify_text{
-    margin: 0 15px;
-    font-family: Righteous;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-    color: #FFFFFF;
-  }
-  
-  .mateify_text:hover{
-      text-decoration: none;
-      color: #1ed760
-  }
+.search_header {
+  display: flex;
+  height: 83px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #000000;
+}
 
-  .search_header img{
+.search_header .mateify_text {
+  margin: 0 15px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.mateify_text:hover {
+  text-decoration: none;
+  color: #1ed760;
+}
+
+.search_header img {
+  width: 37px;
+  height: 33px;
+  left: 66px;
+  top: 25px;
+}
+
+.my_user {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.my_user:hover {
+  color: #1ed760;
+  text-decoration: none;
+}
+
+/*------------------------Fin Del Estilo Pag Searchplaylist.html------------------------*/
+
+/*------------------------Estilo Pag Home.html------------------------*/
+
+
+.mainheader_home{
+  display: flex;
+  flex-direction: row;
+background-color: black;
+height: 83px;
+}
+
+.divheader_home{
+background: black;
+}
+
+.mateify_headerhome{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.h2_mateifyhome{
+  font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+color: #FFFFFF;
+}
+
+.mateifyhome_logo{
     width: 37px;
     height: 33px;
-    left: 66px;
-    top: 25px;
-  }
-  
-  .my_user{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-  
-  .my_user:hover{
-    color: #1ed760;
-    text-decoration: none;
-  }
 
-
-/* Estilo de Pag Home.html */
-
-.header_homepag{
-    height: 83px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: black;
 }
-.header_homepag h1{
-    width: 183px;
-    height: 64px;
-    left: 114px;
-    top: 19px;
-    
-    font-family: Righteous;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-    
-    color: #FFFFFF;
-}
-.logo_homepag{
-    width: 37px;
-height: 33px;
-left: 66px;
-top: 25px;
+
+.goto_home{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
