@@ -19,26 +19,52 @@
     <title>Mateify Home!</title>
   </head>
   <body>
-    <!---------------------------------------------------------Header--------------------------------------------------------------------->
-    <header class="fixed-top mainheader_home">
-      <div class="container-fluid divheader_home">
-        <div class="mateify_headerhome">
-          <img
-            class="mateifyhome_logo"
-            src="https://media.discordapp.net/attachments/702899679947522121/714933469796499567/LogoSoloBlancoFondoTransparente.png"
-            alt=""
-          />
-          <h2 class="h2_mateifyhome">Mateify</h2>
-          
+    <div class="container-fluid background_home">
+      <!---------------------------------------------------------Header--------------------------------------------------------------------->
+      <header class="fixed-top">
+        <div class="container-fluid mainheader_home">
+          <div class="mateify_headerhome">
+            <img
+              class="mateifyhome_logo"
+              src="https://media.discordapp.net/attachments/702899679947522121/714933469796499567/LogoSoloBlancoFondoTransparente.png"
+              alt=""
+            />
+            <h2 class="h2_mateifyhome">Mateify</h2>
+          </div>
+          <div class="goto_home">
+            <a class="phome_register" href="/register.html">Registrarse</a>
+            <a class="phome_login" href="/Login.html">Iniciar Sesión</a>
+          </div>
         </div>
-        <div class="goto_home">
-          <p class="phome_register">Registrarse</p>
-          <p class="phome_login">Iniciar Sesión</p>
-        </div>
-      </div>
-    </header>
-    <!---------------------------------------------------------Finaliza Header--------------------------------------------------------------------->
+      </header>
+      <!---------------------------------------------------------Finaliza Header--------------------------------------------------------------------->
 
+      <!---------------------------------------------------------Centro de la pag--------------------------------------------------------------------->
+      <form class="main_form_login">
+        <div class="form-group col-auto">
+          <input
+            type="search"
+            class="form-control searchbar_home"
+            placeholder="Buscar una playlist"
+          />
+        </div>
+      </form>
+      <!---------------------------------------------------------Footer--------------------------------------------------------------------->
+      <footer class="fixed-bottom footerhome_main">
+        <div class="container footerhome_container">
+          <p>Diseñado en Uruguay</p>
+          <div class="pwred_spotihome">
+            <p>Powered by</p>
+            <img
+              class="Spotify_logohome"
+              src="https://media.discordapp.net/attachments/703316829241737297/715674715628371978/spotify_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </footer>
+      <!---------------------------------------------------------Finaliza Footer--------------------------------------------------------------------->
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

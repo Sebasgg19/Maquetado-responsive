@@ -151,7 +151,7 @@ h1 {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: #000000;  
+  color: #000000;
   margin-bottom: 120px;
 }
 
@@ -422,41 +422,153 @@ h1 {
 
 /*------------------------Estilo Pag Home.html------------------------*/
 
-
-.mainheader_home{
+.mainheader_home {
   display: flex;
   flex-direction: row;
-background-color: black;
-height: 83px;
+  background-color: black;
+  align-items: center;
+  height: 83px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(101, 101, 101, 0.33);
 }
 
-.divheader_home{
-background: black;
-}
-
-.mateify_headerhome{
-display: flex;
-justify-content: flex-start;
-align-items: center;
-}
-
-.h2_mateifyhome{
-  font-family: Righteous;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 40px;
-color: #FFFFFF;
-}
-
-.mateifyhome_logo{
-    width: 37px;
-    height: 33px;
-
-}
-
-.goto_home{
-  display: flex;
-  justify-content: flex-end;
+.divheader_home {
+  background: black;
   align-items: center;
 }
+
+.mateify_headerhome {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-items: center;
+ 
+}
+
+.h2_mateifyhome {
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+}
+
+.mateifyhome_logo {
+  width: 37px;
+  height: 33px;
+  align-items: center;
+  display: flex;
+}
+
+.goto_home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+ 
+}
+
+.phome_register {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+}
+
+.phome_login {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 50px;
+  display: flex;
+}
+
+.phome_register:hover{
+  text-decoration: none;
+  color: #1ed760;
+}
+
+.phome_login:hover{
+  text-decoration: none;
+  color: #1ed760;
+}
+
+/* FINALIZA ESTILO HEADER HOME.HTML */
+
+
+.searchbar_home{
+  width: 738px;
+  height: 57px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  margin-top: 50%;
+}
+.searchbar_home::placeholder{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+color: rgba(31, 32, 65, 0.25);
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------Estilo Footer pag Home.html------------------------*/
+
+.footerhome_container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 88px;
+  align-items: center;
+}
+.footerhome_container p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0px 5px;
+  color: white;
+}
+
+.Spotify_logohome {
+  height: 40px;
+}
+
+.pwred_spotihome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footerhome_main {
+  border-top: 1px solid rgba(101, 101, 101, 0.33);
+  background-color: black;
+  justify-content: space-between;
+  margin: 0 0;
+}
+
+
