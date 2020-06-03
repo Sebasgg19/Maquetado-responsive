@@ -603,6 +603,10 @@ h1 {
   justify-content: center;
 }
 
+.main_table{
+  margin-top: 12%;
+}
+
 .table {
   background-color: black;
   overflow-y: scroll;
@@ -675,12 +679,8 @@ td {
 }
 
 .card-img-top:hover{
-  width: 92px;
-height: 92px;
-left: 85px;
-top: 277px;
-
-background: #1ED760;
+  border-radius: 50%;
+    transition: all 0.5s;
 }
 
 .create_playlist {
@@ -708,6 +708,26 @@ background: #1ED760;
   height: 100%;
   z-index: -1;
   position: absolute;
-  margin-left: 0px;
-  filter: brightness(50%);
+  filter: brightness(30%);
+}
+
+.show_more{
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.showmore_text{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+margin:  5px 15px;
+text-align: center;
 }
