@@ -1,0 +1,23 @@
+Repartición de Tareas:
+Me encargue de realizar el siguiente trabajo: 
+-Diseño HTML de 6 páginas
+-Diseño CSS de 6 páginas
+
+Obstáculos a la hora de maquetar la app: Tuve diversas complicaciones,
+como el fondo de la página "Home.html" por ejemplo,
+pero en verdad lo que mas me costó fue posicionar cada elemento dentro de su respectiva página.
+
+Me llevó mas tiempo de lo habitual ya que tuve que realizar un trabajo (a mi parecer bastante largo) basicamente solo, ayudándonos mutuamente con un compañero de curso, ajeno a mi grupo de trabajo.
+ 
+ 
+
+
+
+----------Quiero realizar una mención especial a Kevin Iglesias, con el que trabaje básicamente en conjunto, ya que mi compañero no fue capaz de realizar el proyecto por diversos motivos que son ajenos a mi persona.----------
+
+
+
+
+
+
+Documentación dictada y escrita por mi, Sebastián Gandini.
