@@ -420,14 +420,25 @@ h1 {
 }
 
 .searchbar_div {
+  display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /*------------------------Fin Del Estilo Pag Searchplaylist.html------------------------*/
 
 /*------------------------Estilo Pag Home.html------------------------*/
+
+.background_homea {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  filter: brightness(30%);
+}
 
 .mainheader_home {
   display: flex;
@@ -460,6 +471,11 @@ h1 {
   color: #ffffff;
   align-items: center;
   display: flex;
+}
+
+.h2_mateifyhome:hover{
+  text-decoration: none;
+  color: #1ed760;
 }
 
 .mateifyhome_logo {
@@ -511,20 +527,54 @@ h1 {
 
 /* FINALIZA ESTILO HEADER HOME.HTML */
 
-.searchbar_home {
-  width: 738px;
-  height: 57px;
-  background: #ffffff;
-  border: 1px solid rgba(31, 32, 65, 0.25);
-  box-sizing: border-box;
-  border-radius: 33px;
-  margin-top: 50%;
+.section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
-.searchbar_home::placeholder {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  color: rgba(31, 32, 65, 0.25);
+.let_ply_music{
+    color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   margin-top: 10rem;
+}
+.section_search {
+   width: 738px;
+   height: 57px;
+   left: 206px;
+   top: 292px;
+   background: #FFFFFF;
+   border: 1px solid rgba(31, 32, 65, 0.25);
+   box-sizing: border-box;
+   border-radius: 33px;
+   border: auto;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 22px;
+   line-height: 24px;
+}
+.row{
+   display: flex;
+   justify-content: center;
+}
+.type_search{
+   width: 348px;
+   height: 57px;
+   left: 401px;
+   top: 403px;
+   background: #1ED760;
+   border-radius: 42px;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 27px;
+   text-transform: uppercase;
+   border: none;
+   color: #FFFFFF;
+   margin: 3.5rem 0;
 }
 
 /*------------------------Estilo Footer pag Home.html------------------------*/
@@ -701,15 +751,7 @@ td {
   align-items: center;
 }
 
-.background_homea {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  position: absolute;
-  filter: brightness(30%);
-}
+
 
 .show_more{
   color: white;
